@@ -1,0 +1,35 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+}
+
+p {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.page-title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5%;
+    color:beige;
+}
+
+.header-image {
+    margin: auto;
+    display: block;
+    padding-bottom: 5%;
+}
+
+h4 {
+    font-style: oblique;
+    color:rgb(164, 6, 255)
+}
+
+.ingredients,
+.steps {
+    font-size: 40px;
+    font-variant: small-caps; 
+    text-decoration: underline 5%
+}
