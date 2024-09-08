@@ -12,14 +12,15 @@ p {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     color:beige;
+    text-shadow: 0 0 50px rgb(164, 6, 255)
 }
 
 .header-image {
     margin: auto;
     display: block;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 h4 {
@@ -28,7 +29,8 @@ h4 {
 }
 
 .ingredients,
-.steps {
+.steps,
+.recipe-links {
     font-size: 40px;
     font-variant: small-caps; 
     text-decoration: underline 5%
