@@ -1,37 +1,71 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: aqua;
+    background-color: rgb(240, 243, 234);
 }
 
 p {
     font-size: 24px;
     color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 2;
+    margin: auto 100px;
 }
 
 .page-title {
-    font-size: 50px;
+    font-size: 150px;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 3%;
-    color:beige;
-    text-shadow: 0 0 50px rgb(164, 6, 255)
+    margin: 100px 0 100px 0;
+    color:rgb(255, 255, 255);
+    text-shadow: 0 0 50px rgb(154, 20, 232);
 }
 
 .header-image {
-    margin: auto;
+    width: auto;
+    height: 500px;
+    border: 5px solid rgb(154, 20, 232);
+    margin: 0 auto 100px;
     display: block;
-    padding-bottom: 3%;
+}
+
+.content-section{
+    background-color: rgb(30, 255, 165);
+    padding: 5px;
+    box-shadow: 50px 0 50px 0 rgba(30, 255, 165, 0.709);
 }
 
 h4 {
-    font-style: oblique;
-    color:rgb(164, 6, 255)
+    text-align: center;
+    padding: 40px;
+    margin: 0px auto;
+    font-size: 40px;
+    color:rgb(164, 6, 255);
 }
 
 .ingredients,
-.steps,
-.recipe-links {
-    font-size: 40px;
-    font-variant: small-caps; 
-    text-decoration: underline 5%
+.steps {
+    font-size: 24px;
+    font-weight: 700;
+    margin: auto 100px;
+    padding: 20px;
+    line-height: 2;
+}
+
+.recipe-button {
+    display: block;
+    height: 150px;
+    width: 400px;
+    font-size: 50px;
+    border-width: 10px;
+    border-color: rgb(0, 0, 0);
+    margin: 20px auto; 
+    padding: auto;
+    background-color: rgb(255, 160, 160);
 }
