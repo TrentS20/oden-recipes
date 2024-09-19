@@ -3,11 +3,22 @@
 *::after {
     box-sizing: border-box;
 }
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(240, 243, 234);
+    
+}
+
+.page-wrapper {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    margin: 0;
+}
+
+body {
+
 }
 
 p {
@@ -37,8 +48,9 @@ p {
 
 .content-section{
     background-color: rgb(30, 255, 165);
-    padding: 5px;
+    padding: 10px;
     box-shadow: 50px 0 50px 0 rgba(30, 255, 165, 0.709);
+    margin: 0;
 }
 
 h4 {
@@ -68,4 +80,11 @@ h4 {
     margin: 20px auto; 
     padding: auto;
     background-color: rgb(255, 160, 160);
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.recipe-button:hover, a:hover {
+    background-color: aqua;
 }
